@@ -73,7 +73,7 @@ public class EmployeTest {
     @CsvSource({
             "'M12345',0,1,1.0,1700.0",
             "'T12345',0,1,1.0,1000.0",
-            "'T12345',0,2,1.0,2500.0"
+            "'T12345',0,2,1.0,2300.0"
     })
     public void testGetPrimeAnnuelle(String matricule,
                                      Integer nbAnneesAnciennete,
